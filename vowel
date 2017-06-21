@@ -1,6 +1,9 @@
-num = int(input("Enter a number: "))
-mod = num % 2
-if mod > 0:
-    print("This is an odd number.")
+l = input("Input a letter of the alphabet: ")
+
+if l in ('a', 'e', 'i', 'o', 'u'):
+	print("%s is a vowel." % l)
+elif l == 'y':
+	print("Sometimes letter y stand for vowel, sometimes stand for consonant.")
 else:
-    print("This is an even number.")
+	print("%s is a consonant." % l) 
+	
