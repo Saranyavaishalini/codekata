@@ -3,10 +3,10 @@ b=input("enter the value")
 c=input("enter the value")
 if a>b and a>c:
   print(str(a))
-  print("a is greater")
+  print("a is Larger")
 elif b>c:
   print(str(b))
-  print("b is greater")
+  print("b is Larger")
 else:
   print(str(c))
-  print("c is greater")
+  print("c is Larger")
